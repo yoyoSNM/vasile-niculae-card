@@ -292,6 +292,28 @@ București, România
 <div class="footer">
 bayo.design
 </div>
+<script>
 
+function shareContact(){
+
+if(navigator.share){
+
+navigator.share({
+title:'Vasile NICULAE',
+text:'Manager Vânzări - Aluminiu Procesat',
+url:window.location.href
+});
+
+}else{
+
+navigator.clipboard.writeText(window.location.href);
+
+alert('Link copiat');
+
+}
+
+}
+
+</script>
 </body>
 </html>

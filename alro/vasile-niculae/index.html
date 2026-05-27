@@ -34,8 +34,31 @@ padding:24px 20px 34px;
 text-align:center;
 color:#fff;
 position:relative
+overflow:hidden;
 }
 
+.hero-pattern{
+position:absolute;
+
+left:50%;
+top:56%;
+
+transform:translate(-50%,-50%);
+
+width:760px;
+
+opacity:.04;
+
+z-index:0;
+
+pointer-events:none;
+}
+
+.hero > *{
+position:relative;
+z-index:2;
+}
+  
 .avatar{
 width:160px;
 height:160px;
@@ -192,30 +215,32 @@ padding:14px 22px
 
 <div class="hero">
 
-  <svg
+<svg
+class="hero-pattern"
 viewBox="0 0 170.47 156.05"
 xmlns="http://www.w3.org/2000/svg">
 <style>
 
 #alroShape{
-animation: glow 6s ease-in-out infinite;
+animation: glow 8s ease-in-out infinite;
 transform-origin:center;
+transform-box:fill-box;
 }
 
 @keyframes glow{
 
 0%{
-opacity:.05;
+opacity:.035;
 transform:scale(1);
 }
 
 50%{
-opacity:.08;
-transform:scale(1.015);
+opacity:.06;
+transform:scale(1.005);
 }
 
 100%{
-opacity:.05;
+opacity:.035;
 transform:scale(1);
 }
 

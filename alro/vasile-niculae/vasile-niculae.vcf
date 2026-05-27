@@ -2,15 +2,13 @@ BEGIN:VCARD
 VERSION:3.0
 N:NICULAE;Vasile;;;
 FN:Vasile NICULAE
-ORG:Vimetco Trading SRL
+ORG:Vimetco Trading SRL;
 TITLE:Manager Vânzări Aluminiu Procesat
-TEL;TYPE=CELL:+40752105394
-TEL;TYPE=WORK:+40214083500
+EMAIL;type=INTERNET;type=pref:vniculae@vimetco.ro
+EMAIL;type=INTERNET:contact@alro.ro
+TEL;type=CELL;type=VOICE;type=pref:+40752105394
 TEL:+40214083500
-EMAIL:vniculae@vimetco.ro
-EMAIL:contact@alro.ro
-item1.URL:https://www.alro.ro
-item1.X-ABLabel:ALRO
-ADR:;;Splaiul Unirii 64;București;;;România
-PHOTO;VALUE=URI:https://card.bayo.design/alro/vasile-niculae/Vasile-NICULAE.jpg
+ADR;type=pref:;;Splaiul Unirii 64;București;;040036;România
+item1.URL;type=pref:https://www.alro.ro
+item1.X-ABLabel:site
 END:VCARD

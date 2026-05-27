@@ -6,9 +6,11 @@ ORG:Vimetco Trading SRL
 TITLE:Manager Vânzări Aluminiu Procesat
 TEL;TYPE=CELL:+40752105394
 TEL;TYPE=WORK:+40214083500
-EMAIL;TYPE=WORK:vniculae@vimetco.ro
-EMAIL;TYPE=WORK:contact@alro.ro
-URL:https://www.alro.ro
+TEL:+40214083500
+EMAIL:vniculae@vimetco.ro
+EMAIL:contact@alro.ro
+item1.URL:https://www.alro.ro
+item1.X-ABLabel:ALRO
 ADR:;;Splaiul Unirii 64;București;;;România
 PHOTO;VALUE=URI:https://card.bayo.design/alro/vasile-niculae/Vasile-NICULAE.jpg
 END:VCARD
